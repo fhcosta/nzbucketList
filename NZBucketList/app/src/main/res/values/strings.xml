@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">NZ Bucket List</string>
+
+    //Place List
+    <string name="bucket_list_title">Bucket List</string>
+
+    //Place Detail
+    <string name="place_title_hint">Enter a name for a new place</string>
+    <string name="place_short_description_hint">Enter a short description</string>
+    <string name="place_short_description">short description</string>
+    <string name="btn_add_place">ADD</string>
+    <string name="place_visited">Visited place</string>
+
+    //Bucket List
+    <array name="places">
+        <item>Christchurch</item>
+        <item>Coromandel</item>
+        <item>Hobbiton</item>
+        <item>Taupo</item>
+        <item>Aoraki</item>
+        <item>Piha</item>
+        <item>Queenstown</item>
+        <item>Rotorua</item>
+        <item>Tasman</item>
+        <item>Waiheke</item>
+    </array>
+
+    <string-array name="places_description">
+        <item>Christchurch, known for its English heritage, is located on the east coast of New Zealand South Island.
+        </item>
+        <item>Coromandel is a coastal town on the Coromandel Peninsula of New Zealand North Island.
+        </item>
+        <item>The Hobbiton Movie Set was a significant location used for The Lord of the Rings film
+            trilogy and The Hobbit film series.
+        </item>
+        <item>Taupo, a town near the centre of New Zealand North Island, is distinguished by its lakefront setting and outdoor sports ranging from fishing to jet-boating.
+        </item>
+        <item>Aoraki / Mount Cook is the highest mountain in New Zealand. Its height since 2014 is listed as 3,724 metres, down from 3,764 m before December 1991, due to a rockslide and subsequent erosion.</item>
+        <item>Beach renowned for black sand and strong waves ideal for surfing, with panoramic views.
+        </item>
+        <item>Queenstown, New Zealand, sits on the shores of the South Island’s Lake Wakatipu, set against the dramatic Southern Alps.
+        </item>
+        <item>Rotorua, a town set on its namesake lake on New Zealand North Island, is renowned for its geothermal activity and Maori culture.
+        </item>
+        <item>Haupapa / Tasman Glacier is the largest glacier in New Zealand, and one of several large glaciers which flow south and east towards the Mackenzie Basin from the Southern Alps in New Zealand South Island.
+        </item>
+        <item>Waiheke Island is the most populated and second-largest island in the Hauraki Gulf of New Zealand.
+        </item>
+    </string-array>
+
+    //Menu
+    <string name="share">Share Place</string>
+
+    //Share
+    <string name="share_text">I visited</string>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:id="@+id/txtDetailPlaceName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/place_title_hint"
+        android:inputType="text"
+        android:autofillHints=""
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/place_title_font_size"
+        android:padding="@dimen/place_title_padding"
+        />
+
+    <ImageView
+        android:id="@+id/imgPlaceImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/place_short_description"
+        app:srcCompat="@drawable/no_image" />
+
+    <TextView
+        android:id="@+id/txtPlaceShortDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/place_short_description_hint"
+        android:lines="@integer/place_description_number_of_lines"
+        android:singleLine="false"
+        android:textSize="@dimen/place_description_font_size"
+        android:padding="@dimen/place_title_padding"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/place_title_padding">
+        <CheckBox
+            android:id="@+id/ckbxPlaceVisited"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:padding="@dimen/place_title_padding" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/ckbxPlaceVisited"
+            android:padding="@dimen/place_title_padding"
+            android:text="@string/place_visited"
+            android:textSize="@dimen/list_place_item_font_size"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+
+
+</LinearLayout>
